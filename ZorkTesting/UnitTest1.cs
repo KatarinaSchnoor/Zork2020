@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TestingZork
+namespace ZorkTesting
 {
     [TestClass]
     public class UnitTest1
