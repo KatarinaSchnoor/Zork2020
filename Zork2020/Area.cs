@@ -10,12 +10,12 @@ namespace Zork2020
     {
         
         //storing the name and description for the area
-        string name;
-        string description;
+        public string name;
+        public string description;
 
         //storing the areas close to the area the player are in
-        //World puts in the areas in the dictionary??
-        Dictionary<Directions, Area> connectedArea = new Dictionary<Directions, Area>();
+        //World puts in the areas in the dictionary
+        public Dictionary<Directions, Area> connectedArea = new Dictionary<Directions, Area>();
 
         //what items there are
         List<Item> items = new List<Item>();
