@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zork2020
 {
-    class Area
+    public class Area
     {
         
         //storing the name and description for the area

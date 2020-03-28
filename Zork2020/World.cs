@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zork2020
 {
-    class World
+    public class World
     {
         //storing the available areas
         List<Area> allAreas = new List<Area>();
@@ -47,7 +47,7 @@ namespace Zork2020
         public bool Go(Directions direction )
         {
             //accessing the dictionary in Areas, to see if the directions is stored and if it is possible to go that way
-            if ( currentArea.connectedArea.ContainsKey(direction) )
+            if ( currentArea.connectedArea.ContainsKey(direction) ) /* 1 */
             {
                 //change currentArea - give me the connectedArea attached to the direction
                 currentArea = currentArea.connectedArea[direction];

@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Zork2020;
 
 namespace ZorkTesting
 {
@@ -9,6 +10,7 @@ namespace ZorkTesting
         [TestMethod]
         public void TestMethod1()
         {
+            Area a;
         }
     }
 }
